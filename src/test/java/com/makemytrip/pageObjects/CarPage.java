@@ -23,9 +23,23 @@ public class CarPage extends BasePage{
     WebElement returnElement;
     @FindBy(className = "DayPicker")
     WebElement dayPickerElement;
+    @FindBy(linkText = "SEARCH")
+    WebElement searchBtn;
+    @FindBy(xpath = "//span[@class='latoRegular']")
+    WebElement sortedByElement;
+
+    @FindBy(xpath = "//span[@class='checkmarkOuter ']/label[text()='SUV']")
+    WebElement suvLabel;
 
     public CarPage(WebDriver driver) {
         super ( driver );
+    }
+
+    public void clickSearchBtn(){
+        searchBtn.click ();
+    }
+    public void setSortedByElement(){
+        sortedByElement.click ();
     }
 
     public void setDepartureElement(){
@@ -49,7 +63,9 @@ public class CarPage extends BasePage{
     }
 
     public void setFromElement(String from){
-        driver.findElement(By.xpath("//p[@class='searchedResult font14 darkText']/span[text()='Delhi']")).click();
+        driver.findElement(
+                By.xpath("//p[@class='searchedResult font14 darkText']/span[text()='Delhi']")).
+                click();
 
     }
 
@@ -77,6 +93,20 @@ public class CarPage extends BasePage{
         driver.findElement ( By.xpath ( "//ul[@class='newTimeSlotMerUl']/li[1]/span" ) ).click ();
 
     }
+    public void setLowestToHighestPrice(){
+        driver.findElement (
+                By.cssSelector ( "#root > div > div.cabPage > div:nth-child(2) > div.blueGradientBG.paddingTB24 > div > div > div > div.makeAbsolute.sortOptionsPopup.makeFlex.column > div:nth-child(1) > p")).
+                click ();
+    }
+    public void clickSuvLabel(){
+        suvLabel.click ();
+    }
+    public String getSuvPrice(){
+        return driver.findElement (
+                By.cssSelector ( "#List > div:nth-child(1) > div.makeFlex > div.cabBookDetails.makeFlex.column.textRight > div > div:nth-child(2) > div > p.font28.latoBlack.blackText"))
+                .getText ();
+    }
     public WebElement setNextApplyBtn(){
-        return driver.findElement ( By.xpath ( "/html/body/div[1]/div/div[2]/div/div/div[2]/div/div[6]/div[1]/div[1]/div[5]/span" ) );}
+        return driver.findElement (
+                By.xpath ( "/html/body/div[1]/div/div[2]/div/div/div[2]/div/div[6]/div[1]/div[1]/div[5]/span" ) );}
 }

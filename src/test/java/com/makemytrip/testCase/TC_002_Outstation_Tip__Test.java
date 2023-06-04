@@ -85,8 +85,19 @@ public class TC_002_Outstation_Tip__Test extends BaseClass {
         carPage.setPickupTime ();
         executor.executeScript ( "arguments[0].scrollIntoView(true);",carPage.setNextApplyBtn () );
         executor.executeScript ( "arguments[0].click();",carPage.setNextApplyBtn ()  );
+        carPage.clickSearchBtn ();
 
-        driver.findElement ( By.linkText ( "SEARCH" ) ).click ();
+    }
+
+    @Test(priority = 5)
+    public void test_lowest_charges()throws Exception{
+        CarPage carPage=new CarPage ( driver );
+        Thread.sleep ( 5000 );
+        carPage.setSortedByElement ();
+        carPage.setLowestToHighestPrice ();
+        carPage.clickSuvLabel ();
+        String suvPrice=carPage.getSuvPrice ();
+        System.out.println ( "suvPrice = " + suvPrice );
 
     }
 

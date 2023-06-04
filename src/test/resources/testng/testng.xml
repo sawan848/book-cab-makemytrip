@@ -5,6 +5,7 @@
         <classes>
             <class name="com.makemytrip.testCase.TC_001_HomePage_Test"/>
             <class name="com.makemytrip.testCase.TC_002_Outstation_Tip__Test"/>
+            <class name="com.makemytrip.testCase.TC_003_GiftCards_Test"/>
         </classes>
     </test>
 </suite>

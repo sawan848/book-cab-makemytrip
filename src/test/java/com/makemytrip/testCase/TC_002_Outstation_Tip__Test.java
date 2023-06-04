@@ -2,10 +2,9 @@ package com.makemytrip.testCase;
 
 import com.makemytrip.pageObjects.CarPage;
 import com.makemytrip.testBase.BaseClass;
-import org.openqa.selenium.By;
+import com.makemytrip.testUtils.ExcelUtility;
 import org.openqa.selenium.ElementClickInterceptedException;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.FluentWait;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -13,7 +12,6 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import java.time.Duration;
-import java.util.function.Function;
 
 /**
  * 6/4/2023
@@ -98,6 +96,8 @@ public class TC_002_Outstation_Tip__Test extends BaseClass {
         carPage.clickSuvLabel ();
         String suvPrice=carPage.getSuvPrice ();
         System.out.println ( "suvPrice = " + suvPrice );
+        excelUtility.setCellData ( "Sheet3",0,0,"Suv Price" );
+        excelUtility.setCellData ( "Sheet3",0,1,suvPrice );
 
     }
 

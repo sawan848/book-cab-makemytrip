@@ -11,18 +11,18 @@ import org.openqa.selenium.support.FindBy;
 public class GiftCardPage extends BasePage{
 
     @FindBy(name="name")
-    WebElement receiverNameElement;
+    WebElement recipientsNameElement;
 
     @FindBy(name="senderName")
     WebElement senderNameElement;
 
     @FindBy(name="emailId")
-    WebElement receiverEmailIdElement;
+    WebElement recipientsEmailIdElement;
 
     @FindBy(name="senderEmailId")
     WebElement senderEmailIdElement;
     @FindBy(name="mobileNo")
-    WebElement receiverMobileNoElement;
+    WebElement recipientsMobileNoElement;
     @FindBy(name="senderMobileNo")
     WebElement senderMobileNoElement;
     @FindBy(name="giftMessage")
@@ -62,16 +62,16 @@ public class GiftCardPage extends BasePage{
        return  guestListLabel.getText ();
     }
     public void clickAdultCountLabel(){adultCountLabel.click ();}
-    public void clickGuestLabel(){guestElement.click ();}
+    public WebElement clickGuestLabel(){ return guestElement;}
     public WebElement getHotelElement(){return hotelElement;}
     public String getEmailErrText(){return emailErrText.getText ();    }
     public void clickEmailBtn(){ emailElement.click ();}
-    public void setReceiverName(String name){receiverNameElement.sendKeys ( name );}
+    public void setRecipientsName(String name){recipientsNameElement.sendKeys ( name );}
     public void setSenderName(String senderName){senderNameElement.sendKeys ( senderName );}
-    public void setReceiverMobileNo(String receiverMobileNo){receiverMobileNoElement.sendKeys ( receiverMobileNo );}
+    public void setRecipientsMobileNo(String recipientsMobileNo){recipientsMobileNoElement.sendKeys ( recipientsMobileNo );}
     public void setSenderMobileNo(String senderMobileNo){senderMobileNoElement.sendKeys ( senderMobileNo );}
     public void setSenderEmail(String senderEmail){senderEmailIdElement.sendKeys ( senderEmail );}
-    public void setReceiverEmail(String receiverEmail){receiverEmailIdElement.sendKeys ( receiverEmail );}
+    public void setRecipientsEmail(String recipientsEmail){recipientsEmailIdElement.sendKeys ( recipientsEmail );}
     public void setMessage(String message){messageElement.sendKeys ( message );}
     public void clickBuyNowBtn(){buyNowBtn.click ();}
     public WebElement getGiftCardElement(){return  giftCardElement;}

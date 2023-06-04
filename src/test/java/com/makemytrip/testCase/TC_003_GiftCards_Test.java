@@ -1,8 +1,16 @@
 package com.makemytrip.testCase;
 
+import com.assertthat.selenium_shutterbug.core.Capture;
+import com.assertthat.selenium_shutterbug.core.Shutterbug;
 import com.makemytrip.pageObjects.GiftCardPage;
 import com.makemytrip.testBase.BaseClass;
+import com.makemytrip.testUtils.DataProviders;
+import com.makemytrip.testUtils.ExcelUtility;
 import org.testng.annotations.Test;
+
+import java.io.IOException;
+
+import static org.testng.AssertJUnit.assertEquals;
 
 /**
  * 6/4/2023
@@ -19,34 +27,61 @@ public class TC_003_GiftCards_Test extends BaseClass {
         executor.executeScript ( "arguments[0].click();",giftCardPage.getThankYouCard () );
         giftCardPage.clickEmailBtn ();
     }
-    @Test(priority = 1)
-    public void test_gift_form() throws Exception{
+    @Test(priority = 1,dataProvider = "MakeMyTrip",dataProviderClass = DataProviders.class)
+    public void test_gift_form(String recipientsName,String senderName,
+                               String recipientsMobile,String senderMobile,
+                               String recipientsEmail,String senderEmail,
+                               String composeMessage,String expectedResults,
+                               String actual,String result
+    ) throws Exception{
         GiftCardPage giftCardPage=new GiftCardPage (driver  );
         executor.executeScript ( "arguments[0].scrollIntoView(true);", giftCardPage.getFromHeading ());
 
         //set form values
-        giftCardPage.setReceiverName ( "Sonam" );
-        giftCardPage.setSenderName ( "Kishan" );
-        giftCardPage.setReceiverEmail ( "sonam" );
-        giftCardPage.setSenderEmail ( "kishan@gmail.com" );
-        giftCardPage.setSenderMobileNo ( "9876543210" );
-        giftCardPage.setReceiverMobileNo ( "9887543210" );
-        giftCardPage.setMessage ( "Say hi " );
+        giftCardPage.setRecipientsName ( recipientsName );
+        giftCardPage.setSenderName ( senderName );
+        giftCardPage.setRecipientsEmail ( recipientsEmail);
+        giftCardPage.setSenderEmail ( senderEmail);
+        giftCardPage.setSenderMobileNo (senderMobile);
+        giftCardPage.setRecipientsMobileNo ( recipientsMobile );
+        giftCardPage.setMessage ( composeMessage);
         giftCardPage.clickBuyNowBtn ();
         Thread.sleep ( 8000 );
         String emailError=giftCardPage.getEmailErrText ();
         System.out.println ( "emailError = " + emailError );
+
+        try {
+            BaseClass.captureScreen("");
+            ;
+            Shutterbug.shootPage(driver, Capture.FULL,true).
+                    save(System.getProperty("user.dir")+"\\screenshot\\");
+
+        }catch(IOException e) {
+            e.printStackTrace();
+        }
+
+        assertEquals(emailError,expectedResults);
+            excelUtility.setCellData ( "Sheet1",1,9,"Pass" );
+            excelUtility.fillGreenColor ( "Sheet1",1,9 );
+
+
     }
 
     @Test(priority = 2)
-    public void test_hotel_capacity(){
+    public void test_hotel_capacity() throws Exception {
         GiftCardPage giftCardPage=new GiftCardPage (driver  );
 
         executor.executeScript ( "arguments[0].scrollIntoView(true);",giftCardPage.getHotelElement () );
         executor.executeScript ( "arguments[0].click();",giftCardPage.getHotelElement () );
-        giftCardPage.clickGuestLabel ();
+//        giftCardPage.clickGuestLabel ();
+        executor.executeScript ( "arguments[0].click();", giftCardPage.clickGuestLabel ());
+
+        Thread.sleep ( 5000 );
         giftCardPage.clickAdultCountLabel ();
         String adultCapacity=giftCardPage.getAdultCapacity ();
+
+        excelUtility.setCellData ( "Sheet2",0,0,"Adults" );
+        excelUtility.setCellData ( "Sheet2",0,1,adultCapacity );
         System.out.println ( "adultCapacity = " + adultCapacity );
         
         

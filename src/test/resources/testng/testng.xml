@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="MakeMyTripSuite">
+    <test verbose="2" preserve-order="true" name="Outstation_Tip__Test">
+        <classes>
+            <class name="com.makemytrip.testCase.TC_001_HomePage_Test"/>
+            <class name="com.makemytrip.testCase.TC_002_Outstation_Tip__Test"/>
+        </classes>
+    </test>
+</suite>

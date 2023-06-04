@@ -2,6 +2,8 @@ package com.makemytrip.testBase;
 
 import com.makemytrip.testUtils.ExcelUtility;
 import org.apache.commons.io.FileUtils;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
@@ -10,6 +12,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Parameters;
 
 import java.io.File;
 import java.io.IOException;
@@ -24,15 +27,22 @@ import java.util.ResourceBundle;
  */
 public class BaseClass {
     protected static ExcelUtility excelUtility;
+    protected static Logger logger;
     protected  static JavascriptExecutor executor;
     protected static Actions actions;
     protected static WebDriver driver;
     protected ResourceBundle resource;
     @BeforeTest()
-    public void setDriver(){
+    @Parameters(value = {"browser"})
+    public void setDriver(String browser){
         resource=ResourceBundle.getBundle ( "configs/config" );
         excelUtility=new ExcelUtility ( resource.getString ( "excelPath" ) );
-        driver=new ChromeDriver ();
+        logger= LogManager.getLogger (this.getClass ());
+
+        if(browser.equals ( "chrome" )){
+            driver=new ChromeDriver ();
+            logger.info ( "*** ChromeDriver Setup ***" );
+        }
         executor=(JavascriptExecutor)driver;
         actions=new Actions ( driver );
         driver.manage ().window ().maximize ();

@@ -1,6 +1,7 @@
 package com.makemytrip.testBase;
 
 import com.makemytrip.testUtils.ExcelUtility;
+import io.github.bonigarcia.wdm.WebDriverManager;
 import org.apache.commons.io.FileUtils;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -9,6 +10,8 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
@@ -35,14 +38,28 @@ public class BaseClass {
     @BeforeTest()
     @Parameters(value = {"browser"})
     public void setDriver(String browser){
-        resource=ResourceBundle.getBundle ( "configs/config" );
+        resource=ResourceBundle.getBundle ( "conf/config" );
         excelUtility=new ExcelUtility ( resource.getString ( "excelPath" ) );
         logger= LogManager.getLogger (this.getClass ());
 
-        if(browser.equals ( "chrome" )){
-            driver=new ChromeDriver ();
-            logger.info ( "*** ChromeDriver Setup ***" );
+        switch (browser) {
+            case "edge":
+                driver = new EdgeDriver ();
+                logger.info ( "*** EdgeDriver Setup ***" );
+
+                break;
+            case "firefox":
+                driver = new FirefoxDriver ();
+                logger.info ( "*** FirefoxDriver Setup ***" );
+
+                break;
+            case "chrome":
+                WebDriverManager.chromedriver ().setup ();
+                driver = new ChromeDriver ();
+                logger.info ( "*** ChromeDriver Setup ***" );
+                break;
         }
+
         executor=(JavascriptExecutor)driver;
         actions=new Actions ( driver );
         driver.manage ().window ().maximize ();
@@ -52,7 +69,7 @@ public class BaseClass {
     }
     @AfterTest()
     public void close(){
-        driver.close ();
+        driver.quit ();
     }
 
     public static String  captureScreen(String testName)throws IOException {

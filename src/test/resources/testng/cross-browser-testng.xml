@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="MakeMyTripSuite">
+    <listeners>
+        <listener class-name="com.makemytrip.testUtils.ExtentReportManager"></listener>
+    </listeners>
+    <test  name="Outstation_Tip_Chrome__Test" parallel="tests">
+        <parameter name="browser" value="chrome"></parameter>
+        <classes>
+            <class name="com.makemytrip.testCase.TC_001_HomePage_Test"/>
+            <class name="com.makemytrip.testCase.TC_002_Outstation_Tip__Test"/>
+            <class name="com.makemytrip.testCase.TC_003_GiftCards_Test"/>
+        </classes>
+    </test>
+    <test  parallel="tests"  name="Outstation_Tip_Edge__Test">
+        <parameter name="browser" value="edge"></parameter>
+        <classes>
+            <class name="com.makemytrip.testCase.TC_001_HomePage_Test"/>
+            <class name="com.makemytrip.testCase.TC_002_Outstation_Tip__Test"/>
+            <class name="com.makemytrip.testCase.TC_003_GiftCards_Test"/>
+        </classes>
+    </test> <test  parallel="tests"  name="Outstation_Tip_Firefox__Test">
+        <parameter name="browser" value="firefox"></parameter>
+        <classes>
+            <class name="com.makemytrip.testCase.TC_001_HomePage_Test"/>
+            <class name="com.makemytrip.testCase.TC_002_Outstation_Tip__Test"/>
+            <class name="com.makemytrip.testCase.TC_003_GiftCards_Test"/>
+        </classes>
+    </test>
+</suite>

@@ -13,12 +13,12 @@ public class HomePage extends BasePage{
 
     //locators
     @FindBy(id = "webklipper-publisher-widget-container-notification-frame")
-    WebElement iFrameElement;
+    private WebElement iFrameElement;
     @FindBy(css =".we_close" )
-    WebElement iFrameCloseBtnElement;
+    private WebElement iFrameCloseBtnElement;
 
     @FindBy(css = ".menu_Cabs > div:nth-child(1) > a:nth-child(1)")
-    WebElement cabElement;
+    private WebElement cabElement;
     public HomePage(WebDriver driver) {
         super ( driver );
     }

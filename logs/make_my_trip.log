@@ -1,1 +1,323 @@
 04:06:202320:27:29.149 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - *** ChromeDriver Setup ***
+05:06:2023:08:17:16.461 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - *** ChromeDriver Setup ***
+05:06:2023:10:09:09.105 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - *** ChromeDriver Setup ***
+05:06:2023:10:10:58.987 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - *** ChromeDriver Setup ***
+05:06:2023:13:00:55.255 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - *** ChromeDriver Setup ***
+06:06:2023:14:11:52.562 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - *** ChromeDriver Setup ***
+06:06:2023:14:12:00.895 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - ***** HOME PAGE TEST STARTING *****
+06:06:2023:14:12:09.382 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - ***** END HOME PAGE TEST *****
+06:06:2023:14:12:09.420 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - ***** STARTING TC_002_Outstation_Tip__Test  *****
+06:06:2023:14:12:10.707 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test -  Set Delhi to the input box
+06:06:2023:14:12:12.273 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test -  Set Manali to the input box
+06:06:2023:14:12:12.533 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - set the departure day and month  
+06:06:2023:14:12:12.756 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - set the return day and month  
+06:06:2023:14:12:16.238 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - set the pickup time  
+06:06:2023:14:12:25.490 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - set the drop time   
+06:06:2023:14:12:31.773 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - store the lowest price of the suv the excel sheet   
+06:06:2023:14:12:31.773 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - ***** END TC_002_Outstation_Tip__Test  *****
+06:06:2023:14:12:31.773 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - ***** Starting TC_003_GiftCards_Test  *****
+06:06:2023:14:12:40.803 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - ***** Mouse hover to the Gift card menu *****
+06:06:2023:14:12:50.693 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - ***** Capture screenshot of the form *****
+06:06:2023:14:12:51.831 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - ***** Set result to the excel sheet *****
+06:06:2023:14:12:58.390 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - ***** set no of adults in hotel to the excel *****
+06:06:2023:14:12:58.390 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - ***** END TC_003_GiftCards_Test  *****
+06:06:2023:15:17:30.521 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - *** ChromeDriver Setup ***
+06:06:2023:15:17:39.891 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - ***** HOME PAGE TEST STARTING *****
+06:06:2023:15:17:41.978 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - ***** END HOME PAGE TEST *****
+06:06:2023:15:17:42.002 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - ***** STARTING TC_002_Outstation_Tip__Test  *****
+06:06:2023:15:17:43.125 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test -  Set Delhi to the input box
+06:06:2023:15:17:45.961 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test -  Set Manali to the input box
+06:06:2023:15:17:46.257 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - set the departure day and month  
+06:06:2023:15:17:46.543 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - set the return day and month  
+06:06:2023:15:17:50.093 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - set the pickup time  
+06:06:2023:15:17:58.228 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - set the drop time   
+06:06:2023:15:18:05.296 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - store the lowest price of the suv the excel sheet   
+06:06:2023:15:18:05.297 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - ***** END TC_002_Outstation_Tip__Test  *****
+06:06:2023:15:18:05.300 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - ***** Starting TC_003_GiftCards_Test  *****
+06:06:2023:15:18:13.115 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - ***** Mouse hover to the Gift card menu *****
+06:06:2023:15:18:23.363 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - ***** Capture screenshot of the form *****
+06:06:2023:15:18:24.638 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - ***** Set result to the excel sheet *****
+06:06:2023:15:18:31.114 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - ***** set no of adults in hotel to the excel *****
+06:06:2023:15:18:31.114 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - ***** END TC_003_GiftCards_Test  *****
+07:06:2023:10:27:51.657 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - *** ChromeDriver Setup ***
+07:06:2023:10:27:55.067 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - ***** HOME PAGE TEST STARTING *****
+07:06:2023:10:28:03.756 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - ***** END HOME PAGE TEST *****
+07:06:2023:10:28:03.783 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - ***** STARTING TC_002_Outstation_Tip__Test  *****
+07:06:2023:10:28:04.744 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test -  Set Delhi to the input box
+07:06:2023:10:28:06.572 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test -  Set Manali to the input box
+07:06:2023:10:28:06.863 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - set the departure day and month  
+07:06:2023:10:28:07.100 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - set the return day and month  
+07:06:2023:10:28:10.576 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - set the pickup time  
+07:06:2023:10:28:17.343 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - set the drop time   
+07:06:2023:10:28:23.994 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - store the lowest price of the suv the excel sheet   
+07:06:2023:10:28:23.994 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - ***** END TC_002_Outstation_Tip__Test  *****
+07:06:2023:10:28:23.996 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - ***** Starting TC_003_GiftCards_Test  *****
+07:06:2023:10:28:27.806 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - ***** Mouse hover to the Gift card menu *****
+07:06:2023:10:28:38.390 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - ***** Capture screenshot of the form *****
+07:06:2023:10:28:39.517 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - ***** Set result to the excel sheet *****
+07:06:2023:10:28:45.529 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - ***** set no of adults in hotel to the excel *****
+07:06:2023:10:28:45.529 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - ***** END TC_003_GiftCards_Test  *****
+07:06:2023:10:30:34.883 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - *** FirefoxDriver Setup ***
+07:06:2023:10:30:38.835 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - ***** HOME PAGE TEST STARTING *****
+07:06:2023:10:30:45.970 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - ***** END HOME PAGE TEST *****
+07:06:2023:10:30:46.007 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - ***** STARTING TC_002_Outstation_Tip__Test  *****
+07:06:2023:10:31:31.572 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - *** FirefoxDriver Setup ***
+07:06:2023:10:31:33.803 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - ***** HOME PAGE TEST STARTING *****
+07:06:2023:10:31:39.806 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - ***** END HOME PAGE TEST *****
+07:06:2023:10:31:39.839 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - ***** STARTING TC_002_Outstation_Tip__Test  *****
+07:06:2023:10:31:57.809 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - set the return day and month  
+07:06:2023:10:32:01.958 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - set the pickup time  
+07:06:2023:10:32:09.538 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - set the drop time   
+07:06:2023:10:32:16.626 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - store the lowest price of the suv the excel sheet   
+07:06:2023:10:32:16.627 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - ***** END TC_002_Outstation_Tip__Test  *****
+07:06:2023:10:32:16.630 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - ***** Starting TC_003_GiftCards_Test  *****
+07:06:2023:10:32:47.238 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - ***** Capture screenshot of the form *****
+07:06:2023:10:32:48.332 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - ***** Set result to the excel sheet *****
+07:06:2023:10:32:54.465 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - ***** set no of adults in hotel to the excel *****
+07:06:2023:10:32:54.465 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - ***** END TC_003_GiftCards_Test  *****
+07:06:2023:10:44:10.701 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - *** ChromeDriver Setup ***
+07:06:2023:10:44:13.369 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - ***** HOME PAGE TEST STARTING *****
+07:06:2023:10:44:20.944 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - ***** END HOME PAGE TEST *****
+07:06:2023:10:44:20.981 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - ***** STARTING TC_002_Outstation_Tip__Test  *****
+07:06:2023:10:44:21.894 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test -  Set Delhi to the input box
+07:06:2023:10:44:23.246 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test -  Set Manali to the input box
+07:06:2023:10:44:23.579 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - set the departure day and month  
+07:06:2023:10:44:23.831 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - set the return day and month  
+07:06:2023:10:44:27.341 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - set the pickup time  
+07:06:2023:10:44:34.035 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - set the drop time   
+07:06:2023:10:44:40.544 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - store the lowest price of the suv the excel sheet   
+07:06:2023:10:44:40.544 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - ***** END TC_002_Outstation_Tip__Test  *****
+07:06:2023:10:44:40.546 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - ***** Starting TC_003_GiftCards_Test  *****
+07:06:2023:10:44:45.222 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - ***** Mouse hover to the Gift card menu *****
+07:06:2023:10:44:55.175 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - ***** Capture screenshot of the form *****
+07:06:2023:10:44:56.428 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - ***** Set result to the excel sheet *****
+07:06:2023:10:45:02.466 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - ***** set no of adults in hotel to the excel *****
+07:06:2023:10:45:02.466 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - ***** END TC_003_GiftCards_Test  *****
+07:06:2023:10:46:01.702 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - *** EdgeDriver Setup ***
+07:06:2023:10:46:05.126 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - ***** HOME PAGE TEST STARTING *****
+07:06:2023:10:46:11.163 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - ***** END HOME PAGE TEST *****
+07:06:2023:10:46:11.200 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - ***** STARTING TC_002_Outstation_Tip__Test  *****
+07:06:2023:10:46:12.283 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test -  Set Delhi to the input box
+07:06:2023:10:46:13.614 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test -  Set Manali to the input box
+07:06:2023:10:46:13.954 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - set the departure day and month  
+07:06:2023:10:46:14.265 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - set the return day and month  
+07:06:2023:10:46:17.841 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - set the pickup time  
+07:06:2023:10:46:24.495 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - set the drop time   
+07:06:2023:10:46:31.016 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - store the lowest price of the suv the excel sheet   
+07:06:2023:10:46:31.017 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - ***** END TC_002_Outstation_Tip__Test  *****
+07:06:2023:10:46:31.019 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - ***** Starting TC_003_GiftCards_Test  *****
+07:06:2023:10:46:35.437 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - ***** Mouse hover to the Gift card menu *****
+07:06:2023:10:46:45.621 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - ***** Capture screenshot of the form *****
+07:06:2023:10:46:46.759 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - ***** Set result to the excel sheet *****
+07:06:2023:10:46:52.819 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - ***** set no of adults in hotel to the excel *****
+07:06:2023:10:46:52.820 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - ***** END TC_003_GiftCards_Test  *****
+07:06:2023:10:47:25.407 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - *** FirefoxDriver Setup ***
+07:06:2023:10:47:27.590 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - ***** HOME PAGE TEST STARTING *****
+07:06:2023:10:47:33.585 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - ***** END HOME PAGE TEST *****
+07:06:2023:10:47:33.623 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - ***** STARTING TC_002_Outstation_Tip__Test  *****
+09:06:2023:11:48:43.299 [TestNG-tests-2] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - *** EdgeDriver Setup ***
+09:06:2023:11:48:46.697 [TestNG-tests-2] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - ***** STARTING TC_002_Outstation_Tip__Test  *****
+09:06:2023:11:48:57.566 [TestNG-tests-1] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - *** ChromeDriver Setup ***
+09:06:2023:11:48:57.768 [TestNG-tests-2] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - ***** Starting TC_003_GiftCards_Test  *****
+09:06:2023:11:49:01.518 [TestNG-tests-1] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - ***** STARTING TC_002_Outstation_Tip__Test  *****
+09:06:2023:11:49:11.547 [TestNG-tests-2] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - ***** HOME PAGE TEST STARTING *****
+09:06:2023:11:49:12.656 [TestNG-tests-1] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - ***** Starting TC_003_GiftCards_Test  *****
+09:06:2023:11:49:22.678 [TestNG-tests-1] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - ***** HOME PAGE TEST STARTING *****
+09:06:2023:11:49:32.853 [TestNG-tests-1] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - ***** END HOME PAGE TEST *****
+09:06:2023:11:49:44.368 [TestNG-tests-2] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - ***** END HOME PAGE TEST *****
+09:06:2023:11:49:45.785 [TestNG-tests-2] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - set the departure day and month  
+09:06:2023:11:50:22.983 [TestNG-tests-1] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - ***** END TC_003_GiftCards_Test  *****
+09:06:2023:11:50:33.044 [TestNG-tests-2] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - ***** END TC_003_GiftCards_Test  *****
+11:06:2023:09:53:42.759 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - *** ChromeDriver Setup ***
+11:06:2023:09:53:47.162 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - ***** STARTING TC_002_Outstation_Tip__Test  *****
+11:06:2023:09:53:57.665 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - ***** Starting TC_003_GiftCards_Test  *****
+11:06:2023:09:54:07.719 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - ***** HOME PAGE TEST STARTING *****
+11:06:2023:09:54:09.215 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - ***** END HOME PAGE TEST *****
+11:06:2023:09:54:10.010 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - set the departure day and month  
+11:06:2023:09:54:38.186 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - ***** END TC_003_GiftCards_Test  *****
+11:06:2023:09:55:20.441 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - ***** END TC_002_Outstation_Tip__Test  *****
+11:06:2023:09:55:28.268 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - *** EdgeDriver Setup ***
+11:06:2023:09:55:31.882 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - ***** STARTING TC_002_Outstation_Tip__Test  *****
+11:06:2023:09:55:42.227 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - ***** Starting TC_003_GiftCards_Test  *****
+11:06:2023:09:55:52.243 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - ***** HOME PAGE TEST STARTING *****
+11:06:2023:09:55:53.619 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - ***** END HOME PAGE TEST *****
+11:06:2023:09:55:54.464 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - set the departure day and month  
+11:06:2023:09:56:20.862 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - ***** END TC_003_GiftCards_Test  *****
+11:06:2023:09:57:03.127 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - ***** END TC_002_Outstation_Tip__Test  *****
+11:06:2023:09:58:29.025 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - *** ChromeDriver Setup ***
+11:06:2023:09:58:32.680 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - ***** STARTING TC_002_Outstation_Tip__Test  *****
+11:06:2023:09:58:43.120 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - ***** Starting TC_003_GiftCards_Test  *****
+11:06:2023:09:58:53.208 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - ***** HOME PAGE TEST STARTING *****
+11:06:2023:09:58:54.628 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - ***** END HOME PAGE TEST *****
+11:06:2023:09:58:55.343 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - set the departure day and month  
+11:06:2023:09:59:27.048 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - ***** END TC_003_GiftCards_Test  *****
+11:06:2023:10:00:09.327 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - ***** END TC_002_Outstation_Tip__Test  *****
+11:06:2023:10:00:17.742 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - *** EdgeDriver Setup ***
+11:06:2023:10:00:21.504 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - ***** STARTING TC_002_Outstation_Tip__Test  *****
+11:06:2023:10:00:31.838 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - ***** Starting TC_003_GiftCards_Test  *****
+11:06:2023:10:00:41.859 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - ***** HOME PAGE TEST STARTING *****
+11:06:2023:10:00:43.216 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - ***** END HOME PAGE TEST *****
+11:06:2023:10:00:44.098 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - set the departure day and month  
+11:06:2023:10:01:14.693 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - ***** END TC_003_GiftCards_Test  *****
+11:06:2023:10:01:56.921 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - ***** END TC_002_Outstation_Tip__Test  *****
+11:06:2023:10:02:56.564 [TestNG-tests-1] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - *** ChromeDriver Setup ***
+11:06:2023:10:03:02.693 [TestNG-tests-1] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - ***** STARTING TC_002_Outstation_Tip__Test  *****
+11:06:2023:10:03:13.082 [TestNG-tests-1] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - ***** Starting TC_003_GiftCards_Test  *****
+11:06:2023:10:03:23.136 [TestNG-tests-1] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - ***** HOME PAGE TEST STARTING *****
+11:06:2023:10:03:24.621 [TestNG-tests-1] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - ***** END HOME PAGE TEST *****
+11:06:2023:10:03:25.471 [TestNG-tests-1] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - set the departure day and month  
+11:06:2023:10:03:57.663 [TestNG-tests-1] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - ***** END TC_003_GiftCards_Test  *****
+11:06:2023:10:04:39.965 [TestNG-tests-1] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - ***** END TC_002_Outstation_Tip__Test  *****
+11:06:2023:11:00:17.057 [TestNG-tests-1] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - *** ChromeDriver Setup ***
+11:06:2023:11:00:21.009 [TestNG-tests-1] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - ***** STARTING TC_002_Outstation_Tip__Test  *****
+11:06:2023:11:00:32.487 [TestNG-tests-1] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - ***** Starting TC_003_GiftCards_Test  *****
+11:06:2023:11:00:42.565 [TestNG-tests-1] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - ***** HOME PAGE TEST STARTING *****
+11:06:2023:11:00:44.069 [TestNG-tests-1] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - ***** END HOME PAGE TEST *****
+11:06:2023:11:00:44.861 [TestNG-tests-1] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - set the departure day and month  
+11:06:2023:11:01:16.693 [TestNG-tests-1] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - ***** END TC_003_GiftCards_Test  *****
+11:06:2023:11:01:58.944 [TestNG-tests-1] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - ***** END TC_002_Outstation_Tip__Test  *****
+11:06:2023:11:04:08.892 [TestNG-tests-1] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - *** ChromeDriver Setup ***
+11:06:2023:11:04:12.855 [TestNG-tests-1] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - ***** STARTING TC_002_Outstation_Tip__Test  *****
+11:06:2023:11:04:14.082 [TestNG-tests-1] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - ***** Starting TC_003_GiftCards_Test  *****
+11:06:2023:11:04:24.123 [TestNG-tests-1] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - ***** HOME PAGE TEST STARTING *****
+11:06:2023:11:04:25.587 [TestNG-tests-1] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - ***** END HOME PAGE TEST *****
+11:06:2023:11:04:26.402 [TestNG-tests-1] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - set the departure day and month  
+11:06:2023:11:04:58.048 [TestNG-tests-1] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - ***** END TC_003_GiftCards_Test  *****
+11:06:2023:11:05:40.293 [TestNG-tests-1] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - ***** END TC_002_Outstation_Tip__Test  *****
+11:06:2023:11:06:16.686 [TestNG-tests-1] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - *** ChromeDriver Setup ***
+11:06:2023:11:06:21.078 [TestNG-tests-1] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - ***** STARTING TC_002_Outstation_Tip__Test  *****
+11:06:2023:11:06:32.223 [TestNG-tests-1] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - ***** Starting TC_003_GiftCards_Test  *****
+11:06:2023:11:06:42.266 [TestNG-tests-1] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - ***** HOME PAGE TEST STARTING *****
+11:06:2023:11:06:43.616 [TestNG-tests-1] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - ***** END HOME PAGE TEST *****
+11:06:2023:11:06:44.399 [TestNG-tests-1] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - set the departure day and month  
+11:06:2023:11:07:20.943 [TestNG-tests-1] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - ***** END TC_003_GiftCards_Test  *****
+11:06:2023:11:08:06.302 [TestNG-tests-1] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - *** ChromeDriver Setup ***
+11:06:2023:11:08:12.631 [TestNG-tests-1] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - ***** STARTING TC_002_Outstation_Tip__Test  *****
+11:06:2023:11:08:23.072 [TestNG-tests-1] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - ***** HOME PAGE TEST STARTING *****
+11:06:2023:11:08:24.510 [TestNG-tests-1] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - ***** END HOME PAGE TEST *****
+11:06:2023:11:08:25.297 [TestNG-tests-1] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - set the departure day and month  
+11:06:2023:11:08:25.695 [TestNG-tests-1] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - set the return day and month  
+11:06:2023:11:08:29.428 [TestNG-tests-1] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - set the pickup time  
+11:06:2023:11:08:42.792 [TestNG-tests-1] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - set the drop time   
+11:06:2023:11:08:49.532 [TestNG-tests-1] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - store the lowest price of the suv the excel sheet   
+11:06:2023:11:08:49.532 [TestNG-tests-1] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - ***** END TC_002_Outstation_Tip__Test  *****
+11:06:2023:11:10:25.972 [TestNG-tests-1] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - *** ChromeDriver Setup ***
+11:06:2023:11:10:29.740 [TestNG-tests-1] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - ***** STARTING TC_002_Outstation_Tip__Test  *****
+11:06:2023:11:10:40.768 [TestNG-tests-1] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - ***** Starting TC_003_GiftCards_Test  *****
+11:06:2023:11:10:50.844 [TestNG-tests-1] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - ***** HOME PAGE TEST STARTING *****
+11:06:2023:11:10:52.349 [TestNG-tests-1] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - ***** END HOME PAGE TEST *****
+11:06:2023:11:10:53.558 [TestNG-tests-1] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - set the departure day and month  
+11:06:2023:11:11:14.956 [TestNG-tests-1] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - ***** END TC_003_GiftCards_Test  *****
+11:06:2023:11:11:47.798 [TestNG-tests-1] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - ***** END TC_002_Outstation_Tip__Test  *****
+11:06:2023:11:13:00.585 [TestNG-tests-1] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - *** ChromeDriver Setup ***
+11:06:2023:11:13:05.263 [TestNG-tests-1] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - ***** STARTING TC_002_Outstation_Tip__Test  *****
+11:06:2023:11:13:15.841 [TestNG-tests-1] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - ***** Starting TC_003_GiftCards_Test  *****
+11:06:2023:11:13:25.920 [TestNG-tests-1] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - ***** HOME PAGE TEST STARTING *****
+11:06:2023:11:13:27.383 [TestNG-tests-1] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - ***** END HOME PAGE TEST *****
+11:06:2023:11:13:28.269 [TestNG-tests-1] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - set the departure day and month  
+11:06:2023:11:14:19.669 [TestNG-tests-1] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - ***** END TC_003_GiftCards_Test  *****
+11:06:2023:11:14:43.562 [TestNG-tests-1] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - *** ChromeDriver Setup ***
+11:06:2023:11:14:47.957 [TestNG-tests-1] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - ***** STARTING TC_002_Outstation_Tip__Test  *****
+11:06:2023:11:14:58.299 [TestNG-tests-1] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - ***** Starting TC_003_GiftCards_Test  *****
+11:06:2023:11:15:08.351 [TestNG-tests-1] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - ***** HOME PAGE TEST STARTING *****
+11:06:2023:11:15:09.828 [TestNG-tests-1] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - ***** END HOME PAGE TEST *****
+11:06:2023:11:15:10.736 [TestNG-tests-1] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - set the departure day and month  
+11:06:2023:11:16:02.448 [TestNG-tests-1] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - ***** END TC_003_GiftCards_Test  *****
+11:06:2023:11:16:40.465 [TestNG-tests-1] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - ***** END TC_002_Outstation_Tip__Test  *****
+11:06:2023:11:17:34.240 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - *** ChromeDriver Setup ***
+11:06:2023:11:17:39.637 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - ***** HOME PAGE TEST STARTING *****
+11:06:2023:11:17:41.808 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - ***** END HOME PAGE TEST *****
+11:06:2023:11:17:41.854 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - ***** STARTING TC_002_Outstation_Tip__Test  *****
+11:06:2023:11:17:42.823 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test -  Set Delhi to the input box
+11:06:2023:11:17:44.033 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test -  Set Manali to the input box
+11:06:2023:11:17:44.509 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - set the departure day and month  
+11:06:2023:11:17:44.828 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - set the return day and month  
+11:06:2023:11:17:48.852 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - set the pickup time  
+11:06:2023:11:17:55.142 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - set the drop time   
+11:06:2023:11:18:02.725 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - store the lowest price of the suv the excel sheet   
+11:06:2023:11:18:02.725 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - ***** END TC_002_Outstation_Tip__Test  *****
+11:06:2023:11:18:02.728 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - ***** Starting TC_003_GiftCards_Test  *****
+11:06:2023:11:18:06.605 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - ***** Mouse hover to the Gift card menu *****
+11:06:2023:11:19:56.862 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - *** ChromeDriver Setup ***
+11:06:2023:11:19:59.560 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - ***** HOME PAGE TEST STARTING *****
+11:06:2023:11:20:04.005 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - ***** END HOME PAGE TEST *****
+11:06:2023:11:20:04.040 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - ***** STARTING TC_002_Outstation_Tip__Test  *****
+11:06:2023:11:20:05.055 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test -  Set Delhi to the input box
+11:06:2023:11:20:06.821 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test -  Set Manali to the input box
+11:06:2023:11:20:07.184 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - set the departure day and month  
+11:06:2023:11:20:07.540 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - set the return day and month  
+11:06:2023:11:20:11.331 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - set the pickup time  
+11:06:2023:11:20:18.182 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - set the drop time   
+11:06:2023:11:20:25.712 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - store the lowest price of the suv the excel sheet   
+11:06:2023:11:20:25.713 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - ***** END TC_002_Outstation_Tip__Test  *****
+11:06:2023:11:20:25.716 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - ***** Starting TC_003_GiftCards_Test  *****
+11:06:2023:11:20:29.053 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - ***** Mouse hover to the Gift card menu *****
+11:06:2023:11:20:48.208 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - ***** Capture screenshot of the form *****
+11:06:2023:11:20:49.679 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - ***** Set result to the excel sheet *****
+11:06:2023:11:21:05.629 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - ***** END TC_003_GiftCards_Test  *****
+11:06:2023:11:24:05.530 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - *** ChromeDriver Setup ***
+11:06:2023:11:24:09.092 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - ***** STARTING TC_002_Outstation_Tip__Test  *****
+11:06:2023:11:24:20.357 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - ***** Starting TC_003_GiftCards_Test  *****
+11:06:2023:11:24:30.461 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - ***** HOME PAGE TEST STARTING *****
+11:06:2023:11:24:31.994 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - ***** END HOME PAGE TEST *****
+11:06:2023:11:24:32.956 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - set the departure day and month  
+11:06:2023:11:25:04.819 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - ***** END TC_003_GiftCards_Test  *****
+11:06:2023:11:25:47.059 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - ***** END TC_002_Outstation_Tip__Test  *****
+11:06:2023:11:25:56.418 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - *** EdgeDriver Setup ***
+11:06:2023:11:26:01.125 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - ***** STARTING TC_002_Outstation_Tip__Test  *****
+11:06:2023:11:26:11.676 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - ***** Starting TC_003_GiftCards_Test  *****
+11:06:2023:11:26:21.743 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - ***** HOME PAGE TEST STARTING *****
+11:06:2023:11:26:23.152 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - ***** END HOME PAGE TEST *****
+11:06:2023:11:26:24.013 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - set the departure day and month  
+11:06:2023:11:26:54.351 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - ***** END TC_003_GiftCards_Test  *****
+11:06:2023:11:27:36.673 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - ***** END TC_002_Outstation_Tip__Test  *****
+11:06:2023:11:28:58.340 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - *** ChromeDriver Setup ***
+11:06:2023:11:29:02.982 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - ***** STARTING TC_002_Outstation_Tip__Test  *****
+11:06:2023:11:29:13.561 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - ***** Starting TC_003_GiftCards_Test  *****
+11:06:2023:11:29:23.638 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - ***** HOME PAGE TEST STARTING *****
+11:06:2023:11:29:25.231 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - ***** END HOME PAGE TEST *****
+11:06:2023:11:29:26.368 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - set the departure day and month  
+11:06:2023:11:29:58.045 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - ***** END TC_003_GiftCards_Test  *****
+11:06:2023:11:30:40.304 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - ***** END TC_002_Outstation_Tip__Test  *****
+11:06:2023:11:30:48.807 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - *** EdgeDriver Setup ***
+11:06:2023:11:30:52.817 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - ***** STARTING TC_002_Outstation_Tip__Test  *****
+11:06:2023:11:31:03.226 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - ***** Starting TC_003_GiftCards_Test  *****
+11:06:2023:11:31:13.271 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - ***** HOME PAGE TEST STARTING *****
+11:06:2023:11:31:14.663 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - ***** END HOME PAGE TEST *****
+11:06:2023:11:31:15.475 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - set the departure day and month  
+11:06:2023:11:31:45.831 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - ***** END TC_003_GiftCards_Test  *****
+11:06:2023:11:32:28.105 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - ***** END TC_002_Outstation_Tip__Test  *****
+11:06:2023:11:32:37.592 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - *** FirefoxDriver Setup ***
+11:06:2023:11:32:40.684 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - ***** STARTING TC_002_Outstation_Tip__Test  *****
+11:06:2023:11:32:51.100 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - ***** Starting TC_003_GiftCards_Test  *****
+11:06:2023:11:33:01.113 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - ***** HOME PAGE TEST STARTING *****
+11:06:2023:11:33:01.272 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - ***** END HOME PAGE TEST *****
+11:06:2023:11:33:41.694 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - ***** END TC_003_GiftCards_Test  *****
+11:06:2023:11:34:22.804 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - ***** END TC_002_Outstation_Tip__Test  *****
+11:06:2023:23:02:23.108 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - *** ChromeDriver Setup ***
+11:06:2023:23:02:26.853 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - ***** HOME PAGE TEST STARTING *****
+11:06:2023:23:02:29.708 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - ***** END HOME PAGE TEST *****
+11:06:2023:23:02:29.748 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - ***** STARTING TC_002_Outstation_Tip__Test  *****
+11:06:2023:23:02:30.478 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test -  Set Delhi to the input box
+11:06:2023:23:02:31.785 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test -  Set Manali to the input box
+11:06:2023:23:02:32.122 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - set the departure day and month  
+11:06:2023:23:02:32.398 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - set the return day and month  
+11:06:2023:23:02:35.938 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - set the pickup time  
+11:06:2023:23:02:41.938 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - set the drop time   
+11:06:2023:23:02:56.977 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - ***** END TC_002_Outstation_Tip__Test  *****
+11:06:2023:23:11:08.169 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - *** ChromeDriver Setup ***
+11:06:2023:23:11:11.516 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - ***** HOME PAGE TEST STARTING *****
+11:06:2023:23:11:13.777 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - ***** END HOME PAGE TEST *****
+11:06:2023:23:11:13.811 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - ***** STARTING TC_002_Outstation_Tip__Test  *****
+11:06:2023:23:11:14.594 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test -  Set Delhi to the input box
+11:06:2023:23:11:15.694 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test -  Set Manali to the input box
+11:06:2023:23:11:15.985 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - set the departure day and month  
+11:06:2023:23:11:16.265 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - set the return day and month  
+11:06:2023:23:11:19.834 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - set the pickup time  
+11:06:2023:23:11:25.538 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - set the drop time   
+11:06:2023:23:11:40.592 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - ***** END TC_002_Outstation_Tip__Test  *****
+11:06:2023:23:11:40.592 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - ***** Starting TC_003_GiftCards_Test  *****
+11:06:2023:23:11:43.039 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - ***** Mouse hover to the Gift card menu *****
+11:06:2023:23:12:02.891 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - ***** Capture screenshot of the form *****
+11:06:2023:23:12:04.266 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - ***** Set result to the excel sheet *****
+11:06:2023:23:12:19.879 [main] INFO  com.makemytrip.testCase.TC_001_HomePage_Test - ***** END TC_003_GiftCards_Test  *****

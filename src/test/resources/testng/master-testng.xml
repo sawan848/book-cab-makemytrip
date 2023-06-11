@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="MakeMyTripSuite">
+<suite name="MakeMyTripSuite" >
     <listeners>
         <listener class-name="com.makemytrip.testUtils.ExtentReportManager"></listener>
     </listeners>
-    <test verbose="2" preserve-order="true" name="Outstation_Tip__Test">
+    <test  name="Outstation_Tip_Chrome__Test" >
         <parameter name="browser" value="chrome"></parameter>
         <classes>
             <class name="com.makemytrip.testCase.TC_001_HomePage_Test"/>
@@ -12,4 +12,5 @@
             <class name="com.makemytrip.testCase.TC_003_GiftCards_Test"/>
         </classes>
     </test>
+
 </suite>

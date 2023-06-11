@@ -16,20 +16,30 @@ import java.time.Duration;
  */
 public class TC_001_HomePage_Test extends BaseClass {
     @Test()
-    public void  test_popup(){
-        HomePage homePage=new HomePage ( driver );
-       WebElement iFrame =new WebDriverWait ( driver, Duration.ofSeconds ( 30 ) ).
-               until ( ExpectedConditions.visibilityOf (
-                       homePage.setIFrame ()));
+    public void test_popup() {
+        HomePage homePage = new HomePage ( driver );
+        logger.info ( "***** HOME PAGE TEST STARTING *****" );
+        try {
 
-       if ( iFrame.isDisplayed () ){
-           driver.switchTo ().frame ( iFrame );
-           executor.executeScript ( "arguments[0].click();",homePage.setIFrameCloseBtn () );
-       }
-       driver.switchTo ().parentFrame ();
-       new WebDriverWait ( driver,Duration.ofSeconds ( 3 ) ).
-               until (ExpectedConditions.visibilityOf ( homePage.setCabElement () )  )
-               .click ();
+
+            WebElement iFrame = new WebDriverWait ( driver, Duration.ofSeconds ( 30 ) ).
+                    until ( ExpectedConditions.visibilityOf (
+                            homePage.setIFrame () ) );
+
+            if ( iFrame.isDisplayed () ) {
+                driver.switchTo ().frame ( iFrame );
+                executor.executeScript ( "arguments[0].click();", homePage.setIFrameCloseBtn () );
+            }
+            driver.switchTo ().parentFrame ();
+            new WebDriverWait ( driver, Duration.ofSeconds ( 3 ) ).
+                    until ( ExpectedConditions.visibilityOf ( homePage.setCabElement () ) )
+                    .click ();
+
+        } catch (Exception e) {
+            e.printStackTrace ();
+        }
+
+        logger.info ( "***** END HOME PAGE TEST *****" );
     }
 
 

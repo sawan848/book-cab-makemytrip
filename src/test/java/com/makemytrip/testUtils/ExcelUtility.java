@@ -17,8 +17,8 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 public class ExcelUtility {
 
-	public FileInputStream fi;
-	public FileOutputStream fo;
+	public FileInputStream fileInputStream;
+	public FileOutputStream fileIOutputStream;
 	public XSSFWorkbook workbook;
 	public XSSFSheet sheet;
 	public XSSFRow row;
@@ -33,32 +33,32 @@ public class ExcelUtility {
 		
 	public int getRowCount(String sheetName) throws IOException 
 	{
-		fi=new FileInputStream(path);
-		workbook=new XSSFWorkbook(fi);
+		fileInputStream=new FileInputStream(path);
+		workbook=new XSSFWorkbook(fileInputStream);
 		sheet=workbook.getSheet(sheetName);
 		int rowcount=sheet.getLastRowNum();
 		workbook.close();
-		fi.close();
+		fileInputStream.close();
 		return rowcount;		
 	}
 	
 	public int getCellCount(String sheetName,int rownum) throws IOException
 	{
-		fi=new FileInputStream(path);
-		workbook=new XSSFWorkbook(fi);
+		fileInputStream=new FileInputStream(path);
+		workbook=new XSSFWorkbook(fileInputStream);
 		sheet=workbook.getSheet(sheetName);
 		row=sheet.getRow(rownum);
 		int cellcount=row.getLastCellNum();
 		workbook.close();
-		fi.close();
+		fileInputStream.close();
 		return cellcount;
 	}
 	
 	
 	public String getCellData(String sheetName,int rownum,int colnum) throws IOException
 	{
-		fi=new FileInputStream(path);
-		workbook=new XSSFWorkbook(fi);
+		fileInputStream=new FileInputStream(path);
+		workbook=new XSSFWorkbook(fileInputStream);
 		sheet=workbook.getSheet(sheetName);
 		row=sheet.getRow(rownum);
 		cell=row.getCell(colnum);
@@ -73,7 +73,7 @@ public class ExcelUtility {
 			data="";
 		}
 		workbook.close();
-		fi.close();
+		fileInputStream.close();
 		return data;
 	}
 	
@@ -83,12 +83,12 @@ public class ExcelUtility {
 		if(!xlfile.exists())    // If file not exists then create new file
 		{
 		workbook=new XSSFWorkbook();
-		fo=new FileOutputStream(path);
-		workbook.write(fo);
+		fileIOutputStream=new FileOutputStream(path);
+		workbook.write(fileIOutputStream);
 		}
-				
-		fi=new FileInputStream(path);
-		workbook=new XSSFWorkbook(fi);
+
+		fileInputStream=new FileInputStream(path);
+		workbook=new XSSFWorkbook(fileInputStream);
 			
 		if(workbook.getSheetIndex(sheetName)==-1) // If sheet not exists then create new Sheet
 			workbook.createSheet(sheetName);
@@ -100,18 +100,18 @@ public class ExcelUtility {
 		
 		cell=row.createCell(colnum);
 		cell.setCellValue(data);
-		fo=new FileOutputStream(path);
-		workbook.write(fo);		
+		fileIOutputStream=new FileOutputStream(path);
+		workbook.write(fileIOutputStream);		
 		workbook.close();
-		fi.close();
-		fo.close();
+		fileInputStream.close();
+		fileIOutputStream.close();
 	}
 	
 	
 	public void fillGreenColor(String sheetName,int rownum,int colnum) throws IOException
 	{
-		fi=new FileInputStream(path);
-		workbook=new XSSFWorkbook(fi);
+		fileInputStream=new FileInputStream(path);
+		workbook=new XSSFWorkbook(fileInputStream);
 		sheet=workbook.getSheet(sheetName);
 		
 		row=sheet.getRow(rownum);
@@ -123,18 +123,18 @@ public class ExcelUtility {
 		style.setFillPattern(FillPatternType.SOLID_FOREGROUND); 
 				
 		cell.setCellStyle(style);
-		fo=new FileOutputStream ( path );
-		workbook.write(fo);
+		fileIOutputStream=new FileOutputStream ( path );
+		workbook.write(fileIOutputStream);
 		workbook.close();
-		fi.close();
-		fo.close();
+		fileInputStream.close();
+		fileIOutputStream.close();
 	}
 	
 	
 	public void fillRedColor(String sheetName,int rownum,int colnum) throws IOException
 	{
-		fi=new FileInputStream(path);
-		workbook=new XSSFWorkbook(fi);
+		fileInputStream=new FileInputStream(path);
+		workbook=new XSSFWorkbook(fileInputStream);
 		sheet=workbook.getSheet(sheetName);
 		row=sheet.getRow(rownum);
 		cell=row.getCell(colnum);
@@ -145,11 +145,11 @@ public class ExcelUtility {
 		style.setFillPattern(FillPatternType.SOLID_FOREGROUND);  
 		
 		cell.setCellStyle(style);
-		fo=new FileOutputStream ( path );
-		workbook.write(fo);
+		fileIOutputStream=new FileOutputStream ( path );
+		workbook.write(fileIOutputStream);
 		workbook.close();
-		fi.close();
-		fo.close();
+		fileInputStream.close();
+		fileIOutputStream.close();
 	}
 	
 }

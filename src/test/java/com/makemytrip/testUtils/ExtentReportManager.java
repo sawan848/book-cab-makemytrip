@@ -78,6 +78,7 @@ public class ExtentReportManager implements ITestListener {
 
 	public void onFinish(ITestContext context) {
 		extentReport.flush();
+
 		/*
 		 * try { URL url = new
 		 * URL("file:///"+System.getProperty("user.dir")+"\\reports\\"+repName);

@@ -1,0 +1,18 @@
+{
+    "server": "hub.lambdatest.com",
+    "user": "ksawan802",
+    "key": "3BKltivKFRtY7OxZNpZ6XfpDo5Rc7sW2FA91n4EGR7bdIHLAo3",
+
+    "capabilities": {
+        "build": "Java Selenide Single"
+    },
+
+    "environments": {
+        "chrome": {
+            "platform": "windows 10",
+            "browserName": "chrome",
+            "version":"latest",
+            "geoLocation":"US"
+        }
+    }
+}
